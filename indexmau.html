@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layoutv2</title>
+    <style>
+        h2 {
+            background-color: #95CDFB;
+        }
+
+        .hii {
+            background-position: right;
+        }
+
+        .bb {
+            color: #2173AF;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 2px solid black;
+        }
+
+        td {
+            border: 2px solid #000000;
+            text-align: left;
+            padding: 8px;
+        }
+
+        th {
+            border: 2px solid #000000;
+            padding: 8px;
+        }
+
+        .hi1 {
+            color: #32618A;
+        }
+
+        .hi2 {
+            color: #2173AF;
+        }
+
+        .image {
+            position: absolute;
+            top: 100px;
+            right: 0;
+            width: 200px;
+            height: auto;
+            z-index: 10;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        <p><b>Dog D. Dog</b></p>
+    </h1>
+    <img class="image" src="imagee.jpg" alt="Image">
+    <h2>
+        <p><b class="bb">About</b></p>
+    </h2>
+    <!-- <img class="hii" src="imagee.jpg"> -->
+    <p>Woof woof!</p>
+    <p>Hi, I'm Dog. I love <b class="bb">User Interface Design.</b></p>
+    <h2><b class="bb">Courses</b></h2>
+    <p>Here are some courses I've taken:</p>
+    <table>
+        <thead>
+            <th><b>Course Number</b></th>
+            <th><b>Course Title</b></th>
+            <th><b>Semester Taken</b></th>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="text-align: center;" colspan="3"><b>For Credit</b></td>
+            </tr>
+            <tr>
+                <td class="hi1">6.813</td>
+                <td class="bb">User Interface Design</td>
+                <td class="bb">Spring 2014</td>
+            </tr>
+            <tr>
+                <td class="hi1">6.034</td>
+                <td>Artifical Intelligence</td>
+                <td>Fall 2013</td>
+            </tr>
+            <tr>
+                <td class="hi1">6.006</td>
+                <td>Introduction to Algorithms</td>
+                <td>Fall 2013</td>
+            </tr>
+            <tr>
+                <td style="text-align:center;" colspan="3"><b>Listener</b></td>
+            </tr>
+            <tr>
+                <td class="hi2">6.867</td>
+                <td>Machine Learning</td>
+                <td>Fall 2013</td>
+            </tr>
+            <tr>
+                <td class="hi2">6.830</td>
+                <td>Database Systems</td>
+                <td>Fall 2012</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>
+        <p><b class="bb">Interests</b></p>
+    </h2>
+    <p>I am interested HCI, memes, and youtube videos.</p>
+    <h2>
+        <p><b class="bb">Submit Pet Information</b></p>
+    </h2>
+    <p>Would love to know what kinds of pets you 'own' (you'll never own me). Submit below!</p>
+    <form action="">
+        <label for="Fullname">Name</label>
+        <input type="text" id="fullname" name="full_name" />
+        <br />
+        <label for="Email">Phylum</label>
+        <input type="text" id="phylum" name="phylum" />
+        <br />
+        <label for="Gender">Gender</label>
+        <input type="text" id="gender" name="gender">
+        <br />
+        <input style="background-color: gray ;;" type="Submit" value="Submit">
+
+    </form>
+</body>
+
+</html>
